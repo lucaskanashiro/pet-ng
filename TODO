@@ -1,0 +1,21 @@
+Those features are supported by the actual PET version for each Debian team:
+
+- Separate packages in sections:
+  * Ready For Upload
+  * Packages with RC bugs
+  * Missing tags
+  * Newer upstream version
+  * Problems with debian/watch
+  * New packages
+  * With bugs
+  * Work in progress
+
+- A package entry contains:
+  * Package: package's name
+  * Repository: package's version in Debian git repository (the latest tag and
+    in parenthesis the version in debian/changelog on the top commit)
+  * Archive: package's version in Debian archive
+  * Bugs: number og package's bugs
+  * Upstream: the latest upstream version
+
+We also need to provide an easy way to register new teams
